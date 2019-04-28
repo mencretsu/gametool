@@ -108,7 +108,7 @@ sleep 2
 exit
 ;;
 
-*) echo "PILIH YG BENER CUK "  | lolcat
+*) echo -e "PILIH YG BENER CUK "  | lolcat
 esac
 done
 done
