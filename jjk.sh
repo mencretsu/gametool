@@ -15,12 +15,8 @@ blue='\e[1;34m'
 cyan='\e[1;36m'
 red='\e[1;31m'
 
-figlet GAME | lolcat
+cok.txt
 
-sleep 1
-echo -e $bu  "Thank's for use this tools :)  "
-
-echo -e $bu  "_______________________________________"
 sleep 1
 ###################################################
 # CTRL + C
@@ -54,9 +50,9 @@ echo -e $y "   [ 7]  nethack";
 echo -e $y"    [ 8]  solitaire";
 echo -e $y "   [ 0]  Modar/Exit";
 echo""
-echo -e $red"Pilih Sesuai Selera Anda "
+echo -e $red"====================================================="
 echo -e $red"Subscribe To Channel==> otomatis Gagal <==[ ga subskreb auto mandul kere boss:v]"
-read -p "====>" pil  ;
+read -p "Pilih cok ====>" pil  ;
 
 figlet GAME | lolcat
 #phs shelpis
