@@ -71,7 +71,7 @@ echo -e $g "   [ 7] nethack";
 echo -e $g"    [ 8] solitaire";
 echo -e $g "   [ 0] Modar/Exit";
 echo ""
-echo -e $bu "Pilih Sesuai Selera Anda :)" 
+echo -e $bu "Pilih Sesuai Selera Anda  " 
 echo -e $bu "Subscribe To Channel==> otomatis Gagal <==[        ga subskreb auto mandul kere boss:v]"
 read -p "====>" pil  ;
 
