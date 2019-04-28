@@ -61,7 +61,7 @@ sleep 1
 }
 
 lagi=1
-while [ $lagi -lt 20 ];
+while [ $lagi -lt 8];
 do
 
 sleep 1
