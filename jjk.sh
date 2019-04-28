@@ -40,8 +40,6 @@ while [ $lagi -lt 8 ];
 do
 echo""
 sleep 1
-echo -e $g"
-sleep 2
 echo -e $b "===================MENU GAME======================================="
 echo -e $b "================================================================="
 echo""
@@ -54,6 +52,7 @@ echo -e $g"    [ 6]  moon-buggy";
 echo -e $g "   [ 7]  nethack";
 echo -e $g"    [ 8]  solitaire";
 echo -e $g "   [ 0]  Modar/Exit";
+echo""
 echo -e $bu "Pilih Sesuai Selera Anda "
 echo -e $bu "Subscribe To Channel==> otomatis Gagal <==[ ga subskreb auto mandul kere boss:v]"
 read -p "====>" pil  ;
