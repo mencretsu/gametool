@@ -8,6 +8,7 @@ bu='\E[34m'
 m='\E[35m'
 c='\E[36m'
 w='\E[37m'
+y='\e[93m'
 endc='\E[0m'
 enda='\033[0m'
 blue='\e[1;34m'
@@ -40,21 +41,21 @@ while [ $lagi -lt 8 ];
 do
 echo""
 sleep 1
-echo -e $b "===================MENU GAME======================"
-echo -e $b "=================================================="
+echo -e $red "===================MENU GAME======================"
+echo -e $red "=================================================="
 echo""
-echo -e $g "   [ 1]  tetris";
-echo -e $g "   [ 2]  curse of war";
-echo -e $g "   [ 3]  dam-daman";
-echo -e $g "   [ 4]  greed";
-echo -e $g "   [ 5]  sudoku";
-echo -e $g"    [ 6]  moon-buggy";
-echo -e $g "   [ 7]  nethack";
-echo -e $g"    [ 8]  solitaire";
-echo -e $g "   [ 0]  Modar/Exit";
+echo -e $y "   [ 1]  tetris";
+echo -e $y "   [ 2]  curse of war";
+echo -e $y "   [ 3]  dam-daman";
+echo -e $y "   [ 4]  greed";
+echo -e $y "   [ 5]  sudoku";
+echo -e $y"    [ 6]  moon-buggy";
+echo -e $y "   [ 7]  nethack";
+echo -e $y"    [ 8]  solitaire";
+echo -e $y "   [ 0]  Modar/Exit";
 echo""
-echo -e $bu "Pilih Sesuai Selera Anda "
-echo -e $bu "Subscribe To Channel==> otomatis Gagal <==[ ga subskreb auto mandul kere boss:v]"
+echo -e $red"Pilih Sesuai Selera Anda "
+echo -e $red"Subscribe To Channel==> otomatis Gagal <==[ ga subskreb auto mandul kere boss:v]"
 read -p "====>" pil  ;
 
 figlet GAME | lolcat
