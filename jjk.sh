@@ -30,7 +30,7 @@ clear
 echo -e $red"~~> oke,  ... "
 echo -e $cyan".."
 sleep 1
-echo "vv"
+echo ""
 echo -e $r"..."
 sleep 1
 }
@@ -38,12 +38,13 @@ sleep 1
 lagi=1
 while [ $lagi -lt 8 ];
 do
-
+echo""
 sleep 1
 echo -e $g"
 sleep 2
 echo -e $b "===================MENU GAME======================================="
 echo -e $b "================================================================="
+echo""
 echo -e $g "   [ 1]  tetris";
 echo -e $g "   [ 2]  curse of war";
 echo -e $g "   [ 3]  dam-daman";
@@ -108,7 +109,7 @@ sleep 2
 exit
 ;;
 
-*) echo -e "PILIH YG BENER CUK "  | lolcat
+*) echo"PILIH YG BENER CUK "  | lolcat
 esac
 done
 done
