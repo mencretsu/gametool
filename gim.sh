@@ -8,6 +8,7 @@ pkg install figlet
 pkg install toilet
 pkg install ruby
 gem install lolcat
+pip2 install termcolor
 
 clear
 printf "  \e[101m\e[1;77m  :::::::::>>>WELCOME<<<:::::::::\e[0m\n"
@@ -30,18 +31,9 @@ blue='\e[1;34m'
 cyan='\e[1;36m'
 red='\e[1;31m'
 
-figlet MIX-Tools | lolcat
+figlet GAME | lolcat
 
 sleep 1
-
-echo -e $g"▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒    "   
-echo -e $g"  T▒▒▒  E▒▒▒  R▒▒▒ M ▒▒▒  U▒▒▒  X ▒▒▒   "
-echo -e $g"▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒           " 
-echo -e $bl"."
-echo -e $bu "________________________________________"
-echo -e $bu  " Tools       : MIX-TOOL$white          " 
-echo -e $bu  " Author      : All Master Termux etc$white  " 
-echo -e $bu  " Contact     : 081235862*** $white " 
 echo -e $bu  "Thank's for use this tools :)  "
 
 echo -e $bu  "_______________________________________" 
@@ -61,7 +53,7 @@ sleep 1
 }
 
 lagi=1
-while [ $lagi -lt 8];
+while [ $lagi -lt 8 ];
 do
 
 sleep 1
@@ -111,10 +103,7 @@ nethack
 8)pkg install tty-solitaire
 tty-solitaire
 
-
 ;;
-
-
 0) echo -e $bu"KHO  -" 
 echo -e $bu"THANK'S"
 printf "\e[103m\e[1;77mBY; Faiz Abd Mufti\e[0m\n"
