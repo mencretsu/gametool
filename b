@@ -105,9 +105,7 @@ ttysolitaire
 
 ;;
 
-9)git clone https://github.com/mbest99/CoK.git
-cd CoK
-python2 cok
+9)cd 321.py.enc
 
 ;;
 
