@@ -34,7 +34,7 @@ sleep 1
 }
 
 lagi=1
-while [ $lagi -lt 8 ];
+while [ $lagi -lt 12 ];
 do
 echo""
 sleep 2
@@ -52,7 +52,7 @@ echo -e $y"    [ 8]  solitaire";
 echo -e $y "   [ 9]  ular piton";
 echo -e $y "   [10]  asah otak";
 echo -e $y "   [11]  game zonk";
-echo -e $y "   [99]  (?)bantuan(?)";
+echo -e $y "   [12]  (?)bantuan(?)";
 echo -e $y "   [ 0]  Modar/Exit";
 echo""
 echo -e $y"====================================================="
