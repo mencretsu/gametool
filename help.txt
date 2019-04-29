@@ -1,5 +1,8 @@
 =>toolgame versi beta belum begitu gg
   masih burik banyak bug
+=>gunakan tombol arah 4 yang belum ngerti cara
+  install bisa cek video saya karena tombol arah 
+  termux saat ini hanya atas sama bawah doang
 =>gunakan beberapa tombol yang ada
 =>disetiap game telah ada petunjuk cara menekan 
   beberapa tombol dengan benar
@@ -8,4 +11,5 @@
   untuk menampilkan hasil yang lebih baik
 =>info lebih lanjut hubungi channel otomatis gagal 
 =>thank's cok udah pake tool ini :)
+=>jgn lupa mampir channelku ea bgst !!
 =======================================================
