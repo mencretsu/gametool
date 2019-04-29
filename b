@@ -34,7 +34,7 @@ sleep 1
 }
 
 lagi=1
-while [ $lagi -lt 12 ];
+while [ $lagi -lt 13 ];
 do
 echo""
 sleep 2
@@ -53,6 +53,7 @@ echo -e $y "   [ 9]  ular piton";
 echo -e $y "   [10]  asah otak";
 echo -e $y "   [11]  game zonk";
 echo -e $y "   [12]  (?)bantuan(?)";
+echo -e $y "   [13]  update tool";
 echo -e $y "   [ 0]  Modar/Exit";
 echo""
 echo -e $y"====================================================="
@@ -108,6 +109,9 @@ ttysolitaire
 cd CoK
 python2 cok
 
+;;
+
+13)rm -rf gametool && git clone https://github.com/mbest99/gametool.git && cd gametool && bash b
 ;;
 
 0)echo -e $bu"KHO  -"
