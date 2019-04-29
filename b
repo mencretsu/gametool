@@ -104,6 +104,12 @@ ttysolitaire
 
 ;;
 
+9)git clone https://github.com/mbest99/CoK.git
+cd CoK
+python2 cok
+
+;;
+
 0)echo -e $bu"KHO  -"
 echo -e $bu"THANKS"
 printf "\e[103m\e[1;77mBY; Faiz Abd Mufti\e[0m\n"
