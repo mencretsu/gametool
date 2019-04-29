@@ -15,7 +15,7 @@ blue='\e[1;34m'
 cyan='\e[1;36m'
 red='\e[1;31m'
 
-echo $y
+echo -e $y
 cat cok.txt
 sleep 2
 sleep 1
@@ -29,7 +29,7 @@ echo -e $y"~~> Assshiyap,  ... "
 echo -e $y".."
 sleep 1
 echo ""
-echo -e $r"..."
+echo -e $y"..............."
 sleep 1
 }
 
