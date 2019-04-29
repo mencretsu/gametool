@@ -46,7 +46,7 @@ do
 echo""
 sleep 2
 echo -e $y "===================MENU GAME======================"
-echo -e $y "=================================================="
+echo -e $y "=======================================by:mr.mbest"
 echo""
 echo -e $y "   [ 1]  tetris";
 echo -e $y "   [ 2]  spiral";
@@ -121,8 +121,13 @@ python2 snk.py
 
 10)echo -e $red
 cat help.txt
-sleep 2
-sleep 3
+sleep 4
+sleep 1
+sleep 5
+sleep 1
+sleep 5
+sleep 1
+sleep 4
 sleep 2
 
 ;;
