@@ -119,7 +119,8 @@ python2 snk.py
 
 ;;
 
-10)cat help.txt
+10)echo -e $red
+cat help.txt
 sleep 2
 sleep 3
 sleep 2
@@ -128,9 +129,8 @@ sleep 2
 
 0)echo -e $g"KHO  -"
 echo -e $g"THANKS"
-echo -e $lr "BY; Faiz Abd Mufti"
+echo -e $g "BY; Faiz Abd M "
 sleep 2
-clear
 exit
 ;;
 
