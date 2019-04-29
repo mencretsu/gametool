@@ -68,7 +68,7 @@ echo -e $y"Subscribe To Channel==> otomatis Gagal <==[ ga subskreb auto mandul k
 read -p "Pilih cok ====>" pil  ;
 
 echo -e $y
-figlet GAME
+figlet GAMETOOL
 #phs shelpis
 
 case $pil in
@@ -121,7 +121,7 @@ ttysolitaire
 ;;
 
 10)echo -e $red
-cat help.txt
+cat cok.txt
 sleep 4
 sleep 1
 sleep 5
