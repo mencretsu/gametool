@@ -1,3 +1,9 @@
+apt update && apt upgrade
+apt install figlet
+apt install termcolor
+
+clear
+
 # Variables
 b='\033[1m'
 u='\033[4m'
@@ -17,10 +23,9 @@ red='\e[1;31m'
 blink='\e[5m'
 lr='\e[101m'
 
-echo -e $blink
+echo -e $y
 cat cok.txt
 sleep 2
-sleep 1
 ###################################################
 # CTRL + C
 ###################################################
@@ -40,7 +45,7 @@ while [ $lagi -lt 13 ];
 do
 echo""
 sleep 2
-echo -e $blink "===================MENU GAME====================="
+echo -e $y"===================MENU GAME====================="
 echo -e $y "=================================================="
 echo""
 echo -e $y "   [ 1]  tetris";
@@ -115,6 +120,7 @@ python2 snk.py
 
 10)echo -e $red
 cat help.txt
+sleep7
 
 ;;
 
@@ -125,7 +131,7 @@ sleep 2
 exit
 ;;
 
-*) echo -e $blink"PILIH YG BENER CUK "  | lolcat
+*) echo -e $y"Pilihan Salah"
 esac
 done
 done
