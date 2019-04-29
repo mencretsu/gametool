@@ -15,6 +15,7 @@ blue='\e[1;34m'
 cyan='\e[1;36m'
 red='\e[1;31m'
 
+echo $y
 cat cok.txt
 sleep 2
 sleep 1
@@ -24,7 +25,7 @@ sleep 1
 trap ctrl_c INT
 ctrl_c() {
 clear
-echo -e $y"~~> Assiyap,  ... "
+echo -e $y"~~> Assshiyap,  ... "
 echo -e $y".."
 sleep 1
 echo ""
