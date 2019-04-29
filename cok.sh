@@ -45,7 +45,7 @@ while [ $lagi -lt 13 ];
 do
 echo""
 sleep 2
-echo -e $y"===================MENU GAME====================="
+echo -e $y "===================MENU GAME======================"
 echo -e $y "=================================================="
 echo""
 echo -e $y "   [ 1]  tetris";
@@ -120,10 +120,9 @@ python2 snk.py
 ;;
 
 10)cat help.txt
-sleep2
-sleep3
-sleep2
-sleep1
+sleep 2
+sleep 3
+sleep 2
 
 ;;
 
