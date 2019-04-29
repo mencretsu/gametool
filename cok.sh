@@ -131,6 +131,7 @@ sleep1
 echo -e $g"THANKS"
 echo -e $lr "BY; Faiz Abd Mufti"
 sleep 2
+clear
 exit
 ;;
 
