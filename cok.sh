@@ -115,7 +115,8 @@ python2 snk.py
 
 ;;
 
-11)rm -rf gametool && git clone https://github.com/mbest99/gametool.git && cd gametool && bash b
+11)rm -rf gametool && git clone https://github.com/mbest99/gametool.git && cd gametool && bash cok.sh
+
 ;;
 
 10)cat help.txt
