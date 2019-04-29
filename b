@@ -105,7 +105,8 @@ ttysolitaire
 
 ;;
 
-9)cd 321.py.enc
+9)cd gametool 
+python2 321.py.enc
 
 ;;
 
