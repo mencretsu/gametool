@@ -14,8 +14,10 @@ enda='\033[0m'
 blue='\e[1;34m'
 cyan='\e[1;36m'
 red='\e[1;31m'
+blink='\e[5m'
+lr='\e[101m'
 
-echo -e $y
+echo -e $blink
 cat cok.txt
 sleep 2
 sleep 1
@@ -38,7 +40,7 @@ while [ $lagi -lt 13 ];
 do
 echo""
 sleep 2
-echo -e $y "===================MENU GAME======================"
+echo -e $y "===================$blink MENU GAME $y===================="
 echo -e $y "=================================================="
 echo""
 echo -e $y "   [ 1]  tetris";
@@ -50,10 +52,8 @@ echo -e $y"    [ 6]  kutu loncat";
 echo -e $y "   [ 7]  nethack";
 echo -e $y"    [ 8]  solitaire";
 echo -e $y "   [ 9]  ular piton";
-echo -e $y "   [10]  asah otak";
-echo -e $y "   [11]  game zonk";
-echo -e $y "   [12]  (?)bantuan(?)";
-echo -e $y "   [13]  update tool";
+echo -e $y "   [10]  bantuan(?)";
+echo -e $y "   [11]  update tool(✓)";
 echo -e $y "   [ 0]  Modar/Exit";
 echo""
 echo -e $y"====================================================="
@@ -106,16 +106,21 @@ ttysolitaire
 ;;
 
 9)cd gametool 
-python2 321.py.enc
+python2 snk.py
 
 ;;
 
-13)rm -rf gametool && git clone https://github.com/mbest99/gametool.git && cd gametool && bash b
+11)rm -rf gametool && git clone https://github.com/mbest99/gametool.git && cd gametool && bash b
 ;;
 
-0)echo -e $bu"KHO  -"
-echo -e $bu"THANKS"
-printf "\e[103m\e[1;77mBY; Faiz Abd Mufti\e[0m\n"
+12)echo -e $red
+cat help.txt
+
+;;
+
+0)echo -e $g"KHO  -"
+echo -e $g"THANKS"
+echo -e $lr "BY; Faiz Abd Mufti"
 sleep 2
 exit
 ;;
