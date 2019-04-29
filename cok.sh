@@ -42,11 +42,11 @@ lagi=1
 while [ $lagi -lt 13 ];
 do
 echo""
-echo -e $y    /===__|__===\                     
-echo -e $y   / X   +++   X \                         
-echo -e $y  /   /(0)_(0)\   \ gametool Beta version             
-echo -e $y  \__/         \__/ By:Mr.Mbest  
-sleep 3 
+echo -e $y "  /===__|__===\      "               
+echo -e $y " / X   +++   X \        "                 
+echo -e $y" /   /(0)_(0)\   \ gametool Beta version    "         
+echo -e $y" \__/         \__/ By:Mr.Mbest  "
+sleep 2 
 echo -e $y "===================MENU GAME======================"
 echo -e $y "=================================================="
 echo""
