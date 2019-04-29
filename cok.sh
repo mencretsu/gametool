@@ -44,9 +44,13 @@ lagi=1
 while [ $lagi -lt 13 ];
 do
 echo""
-sleep 2
+echo -e $y    /===__|__===\                     
+echo -e $y   / X   +++   X \                         
+echo -e $y  /   /(0)_(0)\   \ gametool Beta version             
+echo -e $y  \__/         \__/ By:Mr.Mbest  
+sleep 3 
 echo -e $y "===================MENU GAME======================"
-echo -e $y "=======================================by:mr.mbest"
+echo -e $y "=================================================="
 echo""
 echo -e $y "   [ 1]  tetris";
 echo -e $y "   [ 2]  spiral";
@@ -110,8 +114,7 @@ ttysolitaire
 
 ;;
 
-9)cd gametool 
-python2 snk.py
+9)python2 snk.py
 
 ;;
 
