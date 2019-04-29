@@ -40,7 +40,7 @@ while [ $lagi -lt 13 ];
 do
 echo""
 sleep 2
-echo -e $y "===================$blink MENU GAME $y===================="
+echo -e $blink "===================MENU GAME====================="
 echo -e $y "=================================================="
 echo""
 echo -e $y "   [ 1]  tetris";
@@ -113,7 +113,7 @@ python2 snk.py
 11)rm -rf gametool && git clone https://github.com/mbest99/gametool.git && cd gametool && bash b
 ;;
 
-12)echo -e $red
+10)echo -e $red
 cat help.txt
 
 ;;
@@ -125,7 +125,7 @@ sleep 2
 exit
 ;;
 
-*) echo"PILIH YG BENER CUK "  | lolcat
+*) echo -e $blink"PILIH YG BENER CUK "  | lolcat
 esac
 done
 done
