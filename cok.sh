@@ -118,9 +118,11 @@ python2 snk.py
 11)rm -rf gametool && git clone https://github.com/mbest99/gametool.git && cd gametool && bash b
 ;;
 
-10)echo -e $red
-cat help.txt
-sleep7
+10)cat help.txt
+sleep2
+sleep3
+sleep2
+sleep1
 
 ;;
 
