@@ -42,20 +42,25 @@ echo -e $y "===================MENU GAME======================"
 echo -e $y "=================================================="
 echo""
 echo -e $y "   [ 1]  tetris";
-echo -e $y "   [ 2]  curse of war";
+echo -e $y "   [ 2]  spiral";
 echo -e $y "   [ 3]  dam-daman";
 echo -e $y "   [ 4]  greed";
 echo -e $y "   [ 5]  sudoku";
-echo -e $y"    [ 6]  moon-buggy";
+echo -e $y"    [ 6]  kutu loncat";
 echo -e $y "   [ 7]  nethack";
 echo -e $y"    [ 8]  solitaire";
+echo -e $y "   [ 9]  ular piton";
+echo -e $y "   [10]  asah otak";
+echo -e $y "   [11]  game zonk";
+echo -e $y "   [99]  (?)bantuan(?)";
 echo -e $y "   [ 0]  Modar/Exit";
 echo""
 echo -e $y"====================================================="
 echo -e $y"Subscribe To Channel==> otomatis Gagal <==[ ga subskreb auto mandul kere boss:v]"
 read -p "Pilih cok ====>" pil  ;
 
-figlet GAME | lolcat
+echo -e $y
+figlet GAME
 #phs shelpis
 
 case $pil in
