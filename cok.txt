@@ -1,4 +1,4 @@
     /===__|__===\                     
    / X   +++   X \                         
-  /   /(0)_(0)\   \   gametool v1.0.0              
-  \__/         \__/   By:Mr.Mbest                             
+  /   /(0)_(0)\   \     gametool v1.0.0              
+  \__/         \__/     By:Mr.Mbest                             
