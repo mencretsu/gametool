@@ -24,8 +24,8 @@ sleep 1
 trap ctrl_c INT
 ctrl_c() {
 clear
-echo -e $red"~~> oke,  ... "
-echo -e $cyan".."
+echo -e $y"~~> Assiyap,  ... "
+echo -e $y".."
 sleep 1
 echo ""
 echo -e $r"..."
@@ -37,8 +37,8 @@ while [ $lagi -lt 8 ];
 do
 echo""
 sleep 2
-echo -e $red "===================MENU GAME======================"
-echo -e $red "=================================================="
+echo -e $y "===================MENU GAME======================"
+echo -e $y "=================================================="
 echo""
 echo -e $y "   [ 1]  tetris";
 echo -e $y "   [ 2]  curse of war";
@@ -50,8 +50,8 @@ echo -e $y "   [ 7]  nethack";
 echo -e $y"    [ 8]  solitaire";
 echo -e $y "   [ 0]  Modar/Exit";
 echo""
-echo -e $red"====================================================="
-echo -e $red"Subscribe To Channel==> otomatis Gagal <==[ ga subskreb auto mandul kere boss:v]"
+echo -e $y"====================================================="
+echo -e $y"Subscribe To Channel==> otomatis Gagal <==[ ga subskreb auto mandul kere boss:v]"
 read -p "Pilih cok ====>" pil  ;
 
 figlet GAME | lolcat
