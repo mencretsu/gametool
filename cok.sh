@@ -23,8 +23,6 @@ red='\e[1;31m'
 blink='\e[5m'
 lr='\e[101m'
 
-echo -e $y
-cat cok.txt
 sleep 2
 ###################################################
 # CTRL + C
@@ -32,11 +30,11 @@ sleep 2
 trap ctrl_c INT
 ctrl_c() {
 clear
-echo -e $y"~~> Assshiyap,  ... "
+echo -e $y"Assshiyap,.."
 echo -e $y".."
 sleep 1
 echo ""
-echo -e $y"..............."
+echo -e $y"................."
 sleep 1
 }
 
