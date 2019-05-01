@@ -1,4 +1,4 @@
-# Sempak
+
 langkah install
 $apt update && apt upgrade
 $apt install python
